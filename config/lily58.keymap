@@ -39,7 +39,7 @@
 // |       |     |     |      |      |      |        |  |       |      |       |       |   {  |   }   |  "|"  |
 //                     |      |      |      |  enter |  | enter |      |       |       |
 			bindings = <
-&trans    &trans    &trans   &trans    &trans      &trans                 &trans     &trans    &trans          &trans    &trans   &DEL
+&trans    &trans    &trans   &trans    &trans      &trans                 &trans     &trans    &trans          &trans    &trans   &kp DEL
 &kp tilde &kp EXCL  &kp AT   &kp up    &kp DOLLAR  &kp PRCNT              &kp caret  &kp AMPS  &kp KP_multiply &kp LPAR  &kp RPAR &trans
 &kp trans &kp trans &kp left &kp down  &kp right   &trans                 &trans     &trans    &trans          &kp LBkt  &kp RBkt &trans
 &trans    &trans    &trans   &trans    &trans      &trans &trans &trans   &trans     &trans    &trans          &kp LBRC  &kp RBRC &kp PIPE
