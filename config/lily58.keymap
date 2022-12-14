@@ -34,13 +34,13 @@
 		lower_layer {
 // ------------------------------------------------------------------------------------------------------------
 // |       |     |     |      |      |      |                   |      |       |       |      |       |  DEL  |
-// |   ~   |  !  |  @  |  up  |   $  |   %  |                   |  ^   |  &    |   *   |   (  |   )   |       |
+// |       |     |     |  up  |      |      |                   |      |       |       |   (  |   )   |       |
 // |       |     |left | down |right |      |                   |      |       |       |   [  |   ]   |       |
 // |       |     |     |      |      |      |        |  |       |      |       |       |   {  |   }   |  "|"  |
 //                     |      |      |      |  enter |  | enter |      |       |       |
 			bindings = <
 &trans    &trans    &trans   &trans    &trans      &trans                  &trans     &trans    &trans          &trans    &trans   &kp DEL
-&kp TILDE &kp EXCL  &kp AT   &kp UP    &kp DOLLAR  &kp PRCNT               &kp CARET  &kp AMPS  &kp MULTIPLY    &kp LPAR  &kp RPAR &trans
+&none     &none     &none    &kp UP    &none       &none                   &none      &none     &none           &kp LPAR  &kp RPAR &trans
 &trans    &trans    &kp LEFT &kp DOWN  &kp RIGHT   &trans                  &trans     &trans    &trans          &kp LBkt  &kp RBkt &trans
 &trans    &trans    &trans   &trans    &trans      &trans &trans  &trans   &trans     &trans    &trans          &kp LBRC  &kp RBRC &kp PIPE
                              &trans    &trans      &trans &kp RET &kp RET  &trans     &trans    &trans
