@@ -40,8 +40,8 @@
 //                     |      |      |      |  enter |  | enter |      |       |       |
 			bindings = <
 &trans    &trans    &trans   &trans    &trans      &trans                  &trans     &trans    &trans          &trans    &trans   &kp DEL
-&kp tilde &kp EXCL  &kp AT   &kp up    &kp DOLLAR  &kp PRCNT               &kp caret  &kp AMPS  &kp multiply    &kp LPAR  &kp RPAR &trans
-&trans    &trans    &kp left &kp down  &kp right   &trans                  &trans     &trans    &trans          &kp LBkt  &kp RBkt &trans
+&kp TILDE &kp EXCL  &kp AT   &kp UP    &kp DOLLAR  &kp PRCNT               &kp CARET  &kp AMPS  &kp MULTIPLY    &kp LPAR  &kp RPAR &trans
+&trans    &trans    &kp LEFT &kp DOWN  &kp RIGHT   &trans                  &trans     &trans    &trans          &kp LBkt  &kp RBkt &trans
 &trans    &trans    &trans   &trans    &trans      &trans &trans  &trans   &trans     &trans    &trans          &kp LBRC  &kp RBRC &kp PIPE
                              &trans    &trans      &trans &kp RET &kp RET  &trans     &trans    &trans
 			>;
